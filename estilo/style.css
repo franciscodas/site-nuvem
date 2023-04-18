@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2? family= Romanesco & family= Secular+One & family= Shadows+Into+Light & display=swap');
+@font-face {
+    font-family:"natal";
+    src: url("Christmas\ Time\ Star\ Personal\ Use.ttf") format("truetype");
+    font-weight: normal;
+    font-size: normal;
+}
+
+body{
+    background-image: linear-gradient(to right, rgba(252, 250, 176, 0.493), rgba(212, 164, 164, 0.637));
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: solid 0.4px;
+    margin-bottom: 29px;
+    padding-bottom: 20px;
+}
+nav >ul{
+    display: none;                                                                                                                                                                 
+}
+nav:hover >ul{
+    display: block;
+}
+li:hover{
+    color: rgb(158, 92, 92);
+    font-size: 13pt;
+}
+.conteudo{
+    margin-top: -30px;
+    background-image: linear-gradient(to right, rgba(243, 240, 166, 0.747), rgba(223, 166, 204, 0.288), rgba(212, 164, 164, 0.945));
+    padding-top: 10px;                                                                                                                          
+       
+}                                       
+.conteudo_principal{          
+    display: flex;         
+    justify-content: space-                                                                                                                                                                                                                                          around;
+     margin-top: 30px;
+
+}
+.ayla{
+    font-family: 'Romanesco', cursive;
+font-family: 'Secular One', sans-serif;
+
+    font-size: 40pt;
+}
+.sub_principal{
+    margin-top: -28px;
+    margin-bottom: 85px;
+}
+.conteudo_secundario{
+    
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+        
+}
+.s1{
+     border-top: 0.9px solid rgb(22, 172, 218);
+}
+.roda_pe{
+    border-top: 0.4px solid;
+    margin-top: 0px;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.but{
+        border: none;
+        box-shadow: 2px 2px rgba(0, 0, 0, 0.26);
+        border-radius: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: rgba(94, 26, 9, 0.932);
+    }
